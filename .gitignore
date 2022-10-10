@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+/venv
+test.db/000012.sst
+
+
+*.db/*
+history.txt
