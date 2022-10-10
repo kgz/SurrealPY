@@ -1,0 +1,1 @@
+surreal.exe sql  --conn http://localhost:8000 --user=root --pass=root --pretty --ns test --db testdb
