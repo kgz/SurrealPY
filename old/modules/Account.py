@@ -1,6 +1,6 @@
 from datetime import datetime
 
-from .db import db
+from ...app.modules.database import db
 
 
 class Account:

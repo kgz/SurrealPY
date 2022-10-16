@@ -4,7 +4,7 @@ import uuid
 from surrealdb.clients.http import HTTPClient
 
 
-class db(HTTPClient):
+class database(HTTPClient):
     """."""
 
     def __init__(self) -> None:

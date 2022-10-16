@@ -1,0 +1,47 @@
+
+.navbar{
+    
+
+}
+
+.title{
+    color: white;
+    text-decoration: none !important;
+
+}
+
+.link{
+    padding-inline-start: 4px;
+    color: #fff;
+    text-decoration: none;
+    padding-inline: 10px;
+    
+    @media (max-width: 768px) {
+        width:100%;
+        padding-block: 5px;
+
+    }
+    @media (min-width: 768px) {
+        align-self: center;
+        &:first-child{
+           margin-left: 50px;
+        }
+    }
+    &:hover{
+        color: #fff;
+        text-decoration: none;
+    }
+    &.active{
+        color: rgb(16, 238, 219) !important;
+        text-decoration: none !important;
+    }
+
+    transition: all 0.3s ease-in-out;
+
+
+}
+
+
+:global(.navbar-nav){
+    width:100% !important;
+}

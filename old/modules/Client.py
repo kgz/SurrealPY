@@ -1,5 +1,5 @@
 from .Account import Account
-from .db import db
+from ...app.modules.database import db
 
 
 class Client:
